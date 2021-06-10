@@ -1,0 +1,31 @@
+.set-card-style-1{
+    margin-top: 0.5em;
+    min-height: 5em;
+}
+
+.set-div-style{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    
+    background-size: contain;
+}
+
+.set-btn-position{
+    position: absolute;
+    right: 0;
+    
+    width: 5em;
+}
+
+.set-style-div-2{
+    margin: auto;
+}
+
+.set-pay-style{
+    margin-top: 1em;
+}
+.btn1 {
+    
+    margin: 0 auto;
+}
