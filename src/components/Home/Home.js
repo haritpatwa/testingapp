@@ -14,19 +14,16 @@ class Home extends Component {
     }
     
     htmlContent = () => {
-        return (         
-            <div className="">
-                <div class="jumbotron">
-                    <h1 class="display-4">Welcome to Book Store !</h1>
-                    <p class="lead"><span className="set-p-style">A room without books is like a body without a soul.</span></p>
-                    <hr class="my-4"/>
+        return (       
+            <div class="jumbotron">
+                    <h1 >Welcome to Book Store !</h1>
+                    <p><span>A room without books is like a body without a soul.</span></p>
+                    
                     <p>Explore what we have !</p>
                     <button className="btn btn-info" onClick={this.goToBooks}>Go to Books</button>
-                </div>
-            </div>
-        ) 
-    }
-
+                </div>  
+          
+        )}
     render() {
         return (this.htmlContent());
     }

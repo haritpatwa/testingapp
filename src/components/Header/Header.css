@@ -7,9 +7,13 @@
     color: white;
 }
 
-#navbarNavDarkDropdown{
+#dropdown-basic-button{
+    color: white;
+}
+#navbarDarkDropdownMenuLink{
+    
     position: relative;
-    z-index: 999;
+    z-index:999 ;
 }
 
 .set-navbar-style{
