@@ -40,7 +40,7 @@ class Header extends Component {
                     <button type="button" class="btn btn-outline-light" onClick={this.showMessage}>Search</button>
                    
                     <DropdownButton id="dropdown-basic-button" title="Harit Patwa" variant = "Secondary">
-                        <Dropdown.Item href="#/action-1">Update Profile</Dropdown.Item>
+                        <Dropdown.Item href="/profile">Update Profile</Dropdown.Item>
                         <Dropdown.Item href="#/action-2">My Orders</Dropdown.Item>
                         <Dropdown.Item href="#/action-3">Add books</Dropdown.Item>
                     </DropdownButton>

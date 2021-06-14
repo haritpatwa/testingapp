@@ -1,0 +1,13 @@
+.color{
+    background-color: #212529;
+}
+
+.list-group-item.active {
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+
+/* .custom_heading {
+    text-align: start;
+    font-family: sans-serif;
+} */
