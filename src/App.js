@@ -8,6 +8,7 @@ import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout/Checkout';
 import Home from './components/Home/Home';
 import ProfileUpdate from './components/ProfileUpdate/ProfileUpdate';
+import Admin from './components/Admin/Admin';
 
 class App extends React.Component{
   render(){
@@ -22,6 +23,7 @@ class App extends React.Component{
             <Route path= "/Checkout"><Checkout/></Route>
             <Route path="/Home"><Home/></Route>
             <Route path="/profile"><ProfileUpdate/></Route>
+            <Route path="/admin"><Admin /></Route>
             <Route exact path= "/"><Redirect to = "/Home"></Redirect></Route>
           </Switch>
         </Router>
