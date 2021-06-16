@@ -41,7 +41,7 @@ class Header extends Component {
                    
                     <DropdownButton id="dropdown-basic-button" title="Harit Patwa" variant = "Secondary">
                         <Dropdown.Item href="/profile">Update Profile</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">My Orders</Dropdown.Item>
+                        <Dropdown.Item href="/admin">My Orders</Dropdown.Item>
                         <Dropdown.Item href="#/action-3">Add books</Dropdown.Item>
                     </DropdownButton>
                     <button className="btn btn-light set-btn-style" onClick={this.cartClicked}>
